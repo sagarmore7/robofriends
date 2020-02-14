@@ -1,22 +1,15 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Robot World Regular';
+    font-style: normal;
+    /* font-weight: normal; */
+    src: local('Robot World Regular'), url('Robot World.woff') format('woff');
+    }
+  
+h1{
+    font-family: 'Robot World Regular';
+    color: rgb(0, 0, 0);
+    font-weight: 10;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.cardd{
+    width: 300px;
 }
